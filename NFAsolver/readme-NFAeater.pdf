@@ -1,0 +1,11 @@
+1) Team name: NFAeater
+2) Members: Christopher Boumalhab
+3) Time spent: Four and a half hours by myself
+4) Code development was done locally. I will be uploading my code to github. Testing was using print statements and comparing results
+to what they are supposed to be according to my calculations and the answers given in the assignment
+5) Language and libraries used: Python3 with the sys and csv libraries
+6) Main data structures used were lists, stacks, and dicts. A stack was used to implement the DFS, a list was used to track the current path
+I am on in the tree, and a dict was used to store the transitions in the NFA.
+7) The test cases I used were from the given csv files: N1.csv, N3.csv, and N4.csv. I used the strings 010110, 000, and bba respectively for each
+NFA. They all provided outputs that seemed plausibe to me, and stored them in text files.
+8) Not applicable

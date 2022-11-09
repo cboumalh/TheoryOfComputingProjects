@@ -1,0 +1,51 @@
+Theory Project
+
+1. Names of team members: 
+
+    Christopher Boumalhab
+
+2. Approximately how much time was spent in total on the project, and how much by
+each student:
+
+    I worked on the SAT solver by myself, and it took me around a day or two
+
+3. A description of how you managed the code development and testing. Use of github in
+particular is a particularly strong suggestion to simplifying this process, as is some sort
+of organized code review.
+
+    I just worked on the whole thing one function at a time. Made sure each function was logical
+    and tested it on the file to see what the output was like.
+
+4. The language you used, and a list of libraries you invoked.
+
+    I used python and invoked the sys and time libraries
+
+5. A description of the key data structures you used, especially for the internal representation of wffs, assignments, and choice point stacks.
+
+    For the representation of Wffs and the possible assignments, I just used lists, and they worked really well. Besides lists,
+    I didn't really use any other type of data structure.
+
+6. For each of the programs and each of the provided test files a chart of execution time
+versus number of variables. The points from the chart should come from your output
+run, with wffs that were unsatisfiable shown as red points, and wffs that were satisfiable
+shown as green. You may also want to use different symbols for wffs of different kSAT
+subsets (esp. 2SAT).
+The representation of the output files as .csv was done to make it easy to import into
+a spreadsheet where graph generation is easy.
+
+7. From this data a curve fit to the worst case times, again as a function of V. Here it may
+be useful as was done in class to divide the time by the total number of literals in each
+wff first.
+
+8. A description of what you learned in terms of the relative complexity of the different
+solvers, especially as a function of the number of literals per clause. Especially important
+is what you observed in the transition from 2SAT to 3SAT and above.
+
+    Since I only did the brute force one, I can say that the code complexity of the solver isn't really that high.
+    We are simply trying every possible combination and seeing if one of them works. The problem is with time complexity.
+    As the number of variables increases, the time complexity skyrockets due to the fact that it is 2^V where V is the 
+    number of variables.
+
+9. If you did any extra programs, or attempted any extra test cases, describe them separately.
+
+    Not Applicable
