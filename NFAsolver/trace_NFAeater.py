@@ -66,7 +66,7 @@ def tracePaths(currNFA, string):
                     for i in range(0, len(currNFA.transitions[child][epsilon])):
                         theStack.append([currNFA.transitions[child][epsilon][i], top[1][1:], top[2] + [currNFA.transitions[child][epsilon][i]]])
         
-        if epsilon in currNFA.transitions[top[0]] and len(top[2]) == 1 and top[2][0] == top[0]:
+        if epsilon in currNFA.transitions[top[0]] and len(top[2]) == 1 and top[2][0] in currNFA.start and top[0] in currNFA.start:
             for i in range(0, len(currNFA.transitions[top[0]][epsilon])):
                     theStack.append([currNFA.transitions[top[0]][epsilon][i], top[1], [currNFA.transitions[top[0]][epsilon][i]]])
 
