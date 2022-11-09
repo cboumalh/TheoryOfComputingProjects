@@ -1,5 +1,5 @@
 # TheoryOfComputingProjects
-Projects I did in my Theory Class
+Projects I did in my Theory class
 
 The BruteSatSolver project is a python script that uses the brute force approach to solve SAT problems
 
