@@ -62,7 +62,7 @@ def tracePaths(currNFA, string):
 
                 child = currNFA.transitions[top[0]][top[1][0]][i]
 
-                if '~' in currNFA.transitions[child]:
+                if epsilon in currNFA.transitions[child]:
                     for i in range(0, len(currNFA.transitions[child][epsilon])):
                         theStack.append([currNFA.transitions[child][epsilon][i], top[1][1:], top[2] + [currNFA.transitions[child][epsilon][i]]])
         
