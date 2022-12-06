@@ -1,0 +1,5 @@
+To execute the program, use the following command:
+
+	./tm TM_DEFINITION.txt < INPUT_FILE.txt 
+
+Optionally, you can add > OUTPUTFILE.txt to the end

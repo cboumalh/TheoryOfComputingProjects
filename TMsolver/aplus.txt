@@ -1,0 +1,8 @@
+Q:q1,q2,q3
+A:a
+Z: ,a
+S:q1
+F:q3
+T:q1,a,q1,a,R
+T:q1,a,q2,a,R
+T:q2, ,q3, ,R
