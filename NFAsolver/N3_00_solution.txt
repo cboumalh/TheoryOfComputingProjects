@@ -1,5 +1,5 @@
 These are all the possible paths:
-['*q1', 'q2', 'q3', 'q3']
-['*q1', 'q2', 'q3', '*q1']
+['*q4', 'q5', 'q6']
+['*q2', 'q3', '*q2']
 These are all the paths that make it to the final state:
-['*q1', 'q2', 'q3', '*q1']
+['*q2', 'q3', '*q2']

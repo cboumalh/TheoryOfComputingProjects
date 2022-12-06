@@ -1,1 +1,5 @@
+These are all the possible paths:
+['*q4', 'q5', 'q6', '*q4']
+['*q2', 'q3', '*q2', 'q3']
+These are all the paths that make it to the final state:
 ['*q4', 'q5', 'q6', '*q4']

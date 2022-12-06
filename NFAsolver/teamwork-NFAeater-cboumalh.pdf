@@ -1,9 +1,0 @@
-1) No other team members
-2) netid: cboumalh
-3) I spent around four and a half hours on the project. I started off by reading in the data from the CSV file and structuring it in a way
-that made it easy to apply DFS on. I later started applying DFS with a tracking portion that holds the current path taken and how much there is
-left from the input string. Lastly I save all the paths that make it to a final state and save the result to a text file.
-4) I learned more about how epsilons work, how easy Python is to work with, and practised the DFS algorithm without recursion. It also was just helpful
-to code a project and become less rusty in programming in general.
-5) No team dynamics since I worked on this by myself. I am going to upload the code to my Github profile.
-6) Not applicable

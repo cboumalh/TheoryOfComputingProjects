@@ -94,8 +94,14 @@ def main():
     possiblePaths = tracePaths(currNFA, arguments[1])
     finalStatePaths = getFinalStates(possiblePaths, currNFA)
     with open(f"{arguments[0].split('.')[0]}_{arguments[1]}_solution.txt", 'w') as f:
+        f.write("These are all the possible paths:\n")
+        for line in possiblePaths:
+            f.write(f"{line}\n")
+        
+        f.write("These are all the paths that make it to the final state:\n")
         for line in finalStatePaths:
             f.write(f"{line}\n")
+
 
 
 if __name__ == '__main__':

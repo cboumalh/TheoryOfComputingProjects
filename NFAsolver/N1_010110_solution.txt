@@ -1,2 +1,8 @@
+These are all the possible paths:
+['q1', 'q1', 'q2', 'q3', 'q4', 'q4', 'q4']
+['q1', 'q1', 'q1', 'q1', 'q3', 'q4', 'q4']
+['q1', 'q1', 'q1', 'q1', 'q1', 'q2', 'q3']
+['q1', 'q1', 'q1', 'q1', 'q1', 'q1', 'q1']
+These are all the paths that make it to the final state:
 ['q1', 'q1', 'q2', 'q3', 'q4', 'q4', 'q4']
 ['q1', 'q1', 'q1', 'q1', 'q3', 'q4', 'q4']
